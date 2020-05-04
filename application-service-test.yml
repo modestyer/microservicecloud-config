@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cloud-payment-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.221.133:1433;DatabaseName=test
+    username: sa
+    password: liufei56789!
