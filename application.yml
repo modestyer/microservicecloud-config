@@ -9,7 +9,7 @@ spring:
     name: microservicetest-config-dev
 
 config:
-  info: configtest1
+  info: configtest
 ---
 spring:
   profiles: test
