@@ -32,6 +32,8 @@ eureka:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.demo.springcloud.entity
+  configuration:
+    local-cache-scope: statement
 
 
 
