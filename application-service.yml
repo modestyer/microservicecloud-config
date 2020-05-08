@@ -37,5 +37,5 @@ mybatis:
 
 
 logging:
-  config: ${spring.cloud.config.uri}/master/logback.xml
+  config: ${spring.cloud.config.uri}/master/logback-spring.xml
 
